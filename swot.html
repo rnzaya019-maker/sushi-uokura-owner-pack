@@ -1,0 +1,560 @@
+<!doctype html><html><head><meta charset=utf8><meta name="robots" content="noindex"><meta name=viewport content="width=device-width,initial-scale=1,viewport-fit=cover"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}html{scroll-padding-top:env(safe-area-inset-top,0px)}body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;background:#faf9f5;color:#141413}img{max-width:100%}[hidden]:not([hidden=until-found i]){display:none!important}</style></head><body>
+<style>.sunav{position:sticky;top:env(safe-area-inset-top,0px);z-index:50;display:flex;flex-wrap:wrap;gap:4px 18px;align-items:center;padding:10px 16px;background:#16213A;color:#F6F2E9;font:600 13px/1.3 -apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif}
+.sunav__brand{margin-right:auto;font-family:"Iowan Old Style",Palatino,Georgia,serif;font-size:15px;letter-spacing:.02em}
+.sunav a{color:#F6F2E9;text-decoration:none;padding:4px 0;border-bottom:2px solid transparent}
+.sunav a:hover,.sunav a:focus-visible{border-bottom-color:#E08278;outline:none}
+.sunav a[aria-current="page"]{border-bottom-color:#E08278}
+</style><nav class="sunav" aria-label="Sushi Uokura documents"><span class="sunav__brand">Sushi Uokura</span><a href="index.html">Start here</a><a href="website/index.html">Website</a><a href="swot.html" aria-current="page">SWOT</a><a href="brand.html">Brand</a><a href="marketing.html">Marketing</a><a href="online-ordering.html">Online ordering</a></nav>
+<title>Sushi Uokura — Competitive Position &amp; SWOT</title>
+<style>
+  :root {
+    --paper: #F6F2E9;
+    --paper-raised: #FBF8F2;
+    --ink: #16213A;
+    --ink-soft: #4A5470;
+    --ink-faint: #7C84A0;
+    --navy: #16213A;
+    --navy-mid: #2B3B5C;
+    --navy-tint: #E9EBF3;
+    --red: #8E2A2A;
+    --red-mid: #A83B36;
+    --red-tint: #F3E3DE;
+    --line: rgba(22, 33, 58, 0.14);
+    --line-soft: rgba(22, 33, 58, 0.08);
+    --shadow: 0 1px 2px rgba(22,33,58,0.06), 0 8px 24px -12px rgba(22,33,58,0.18);
+    --font-display: "Iowan Old Style", "Palatino Linotype", "URW Palladio L", Palatino, Georgia, serif;
+    --font-body: -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+    --font-mono: "IBM Plex Mono", ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+  }
+
+  :root[data-theme="dark"] {
+    --paper: #12182A;
+    --paper-raised: #182036;
+    --ink: #ECE7DA;
+    --ink-soft: #B7BDD3;
+    --ink-faint: #7E87A4;
+    --navy: #DCE1F0;
+    --navy-mid: #A9B4D6;
+    --navy-tint: #202B48;
+    --red: #E08278;
+    --red-mid: #D06A5F;
+    --red-tint: #33221F;
+    --line: rgba(236, 231, 218, 0.16);
+    --line-soft: rgba(236, 231, 218, 0.09);
+    --shadow: 0 1px 2px rgba(0,0,0,0.3), 0 8px 24px -12px rgba(0,0,0,0.5);
+  }
+
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --paper: #12182A;
+      --paper-raised: #182036;
+      --ink: #ECE7DA;
+      --ink-soft: #B7BDD3;
+      --ink-faint: #7E87A4;
+      --navy: #DCE1F0;
+      --navy-mid: #A9B4D6;
+      --navy-tint: #202B48;
+      --red: #E08278;
+      --red-mid: #D06A5F;
+      --red-tint: #33221F;
+      --line: rgba(236, 231, 218, 0.16);
+      --line-soft: rgba(236, 231, 218, 0.09);
+      --shadow: 0 1px 2px rgba(0,0,0,0.3), 0 8px 24px -12px rgba(0,0,0,0.5);
+    }
+  }
+
+  * { box-sizing: border-box; }
+
+  body {
+    margin: 0;
+    background: var(--paper);
+    color: var(--ink);
+    font-family: var(--font-body);
+    line-height: 1.55;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  .wrap {
+    max-width: 920px;
+    margin: 0 auto;
+    padding: 0 24px;
+  }
+
+  a { color: var(--red-mid); }
+
+  /* ===== Masthead ===== */
+  .masthead {
+    border-bottom: 1px solid var(--line);
+    padding: 52px 0 30px;
+  }
+  .masthead__eyebrow {
+    font-family: var(--font-mono);
+    font-size: 12px;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--red-mid);
+    margin: 0 0 14px;
+  }
+  .masthead__title {
+    font-family: var(--font-display);
+    font-size: clamp(32px, 5vw, 48px);
+    line-height: 1.08;
+    margin: 0 0 12px;
+    text-wrap: balance;
+    color: var(--navy);
+  }
+  .masthead__sub {
+    font-size: 17px;
+    color: var(--ink-soft);
+    max-width: 62ch;
+    margin: 0 0 20px;
+  }
+  .masthead__meta {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px 22px;
+    font-family: var(--font-mono);
+    font-size: 12.5px;
+    color: var(--ink-faint);
+  }
+
+  /* ===== Sections ===== */
+  section { padding: 46px 0; border-bottom: 1px solid var(--line-soft); }
+  section:last-of-type { border-bottom: none; }
+
+  .section__label {
+    font-family: var(--font-mono);
+    font-size: 12px;
+    letter-spacing: 0.13em;
+    text-transform: uppercase;
+    color: var(--ink-faint);
+    margin: 0 0 10px;
+  }
+  .section__head {
+    font-family: var(--font-display);
+    font-size: clamp(24px, 3.4vw, 30px);
+    color: var(--navy);
+    margin: 0 0 16px;
+    text-wrap: balance;
+  }
+  .section__intro {
+    max-width: 68ch;
+    color: var(--ink-soft);
+    font-size: 16px;
+    margin: 0 0 30px;
+  }
+
+  /* ===== Verdict / thesis ===== */
+  .verdict {
+    background: var(--paper-raised);
+    border: 1px solid var(--line);
+    border-radius: 4px;
+    padding: 28px 30px;
+    box-shadow: var(--shadow);
+  }
+  .verdict__label {
+    font-family: var(--font-mono);
+    font-size: 11.5px;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--red-mid);
+    margin: 0 0 10px;
+  }
+  .verdict__text {
+    font-family: var(--font-display);
+    font-size: 21px;
+    line-height: 1.42;
+    color: var(--navy);
+    margin: 0;
+    text-wrap: balance;
+  }
+  .verdict__text em { font-style: italic; color: var(--red-mid); }
+
+  .stat-row {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+    gap: 1px;
+    background: var(--line);
+    border: 1px solid var(--line);
+    margin-top: 28px;
+    border-radius: 4px;
+    overflow: hidden;
+  }
+  .stat {
+    background: var(--paper-raised);
+    padding: 20px 20px 18px;
+  }
+  .stat__num {
+    font-family: var(--font-display);
+    font-size: 30px;
+    color: var(--navy);
+    font-variant-numeric: tabular-nums;
+    display: block;
+    margin-bottom: 4px;
+  }
+  .stat__label {
+    font-size: 12.5px;
+    color: var(--ink-soft);
+    line-height: 1.35;
+  }
+
+  /* ===== Benchmark table ===== */
+  .table-scroll { overflow-x: auto; border: 1px solid var(--line); border-radius: 4px; }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 14px;
+    min-width: 560px;
+  }
+  th, td {
+    text-align: left;
+    padding: 11px 14px;
+    border-bottom: 1px solid var(--line-soft);
+    white-space: nowrap;
+  }
+  thead th {
+    font-family: var(--font-mono);
+    font-size: 11px;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--ink-faint);
+    background: var(--paper-raised);
+    border-bottom: 1px solid var(--line);
+  }
+  tbody tr:last-child td { border-bottom: none; }
+  td.num, th.num { font-variant-numeric: tabular-nums; text-align: right; }
+  tr.hero-row td { background: var(--navy-tint); font-weight: 600; }
+  td.dim { white-space: normal; }
+
+  .segment-table { margin-top: 26px; }
+  .caption {
+    font-size: 13px;
+    color: var(--ink-faint);
+    margin-top: 10px;
+    max-width: 68ch;
+  }
+
+  .callout {
+    margin-top: 26px;
+    border-left: 3px solid var(--red-mid);
+    padding: 4px 0 4px 18px;
+    font-size: 15px;
+    color: var(--ink-soft);
+  }
+  .callout strong { color: var(--ink); }
+
+  /* ===== SWOT ===== */
+  .swot-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 22px;
+  }
+  @media (max-width: 640px) {
+    .swot-grid { grid-template-columns: 1fr; }
+  }
+  .panel {
+    border: 1px solid var(--line);
+    border-radius: 4px;
+    background: var(--paper-raised);
+    padding: 24px 24px 8px;
+  }
+  .panel--positive { border-top: 3px solid var(--navy-mid); }
+  .panel--negative { border-top: 3px solid var(--red-mid); }
+  .panel__head {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    margin-bottom: 18px;
+  }
+  .panel__title {
+    font-family: var(--font-display);
+    font-size: 21px;
+    color: var(--navy);
+    margin: 0;
+  }
+  .panel__scope {
+    font-family: var(--font-mono);
+    font-size: 10.5px;
+    letter-spacing: 0.09em;
+    text-transform: uppercase;
+    color: var(--ink-faint);
+  }
+  .item {
+    padding: 0 0 18px;
+    margin-bottom: 18px;
+    border-bottom: 1px solid var(--line-soft);
+  }
+  .item:last-child { border-bottom: none; margin-bottom: 0; padding-bottom: 16px; }
+  .item__claim {
+    font-size: 15px;
+    color: var(--ink);
+    font-weight: 600;
+    margin: 0 0 6px;
+    line-height: 1.4;
+  }
+  .item__evidence {
+    font-size: 13.5px;
+    color: var(--ink-soft);
+    margin: 0;
+    line-height: 1.5;
+  }
+  .item__evidence cite {
+    font-style: normal;
+    color: var(--ink-faint);
+    font-family: var(--font-mono);
+    font-size: 12px;
+  }
+
+  /* ===== Closing ===== */
+  .closing-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+  }
+  @media (max-width: 640px) { .closing-grid { grid-template-columns: 1fr; } }
+  .close-card {
+    border: 1px solid var(--line);
+    border-radius: 4px;
+    padding: 22px 24px;
+    background: var(--paper-raised);
+  }
+  .close-card__label {
+    font-family: var(--font-mono);
+    font-size: 11px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--red-mid);
+    margin: 0 0 10px;
+  }
+  .close-card p { margin: 0; font-size: 15px; color: var(--ink); line-height: 1.5; }
+  .close-card p + p { margin-top: 10px; color: var(--ink-soft); font-size: 13.5px; }
+
+  footer {
+    padding: 36px 0 60px;
+    font-size: 13px;
+    color: var(--ink-faint);
+    max-width: 68ch;
+  }
+  footer a { color: var(--ink-faint); text-decoration: underline; text-underline-offset: 2px; }
+</style>
+
+<div class="wrap">
+  <header class="masthead">
+    <p class="masthead__eyebrow">Sushi Uokura · Research &amp; Strategy</p>
+    <h1 class="masthead__title">Competitive position &amp; SWOT</h1>
+    <p class="masthead__sub">
+      Where Sushi Uokura stands against its AYCE rivals, Denver's top-rated sushi tier, and — the one
+      comparison the data set was missing — the sushi restaurant three minutes away in Golden.
+    </p>
+    <div class="masthead__meta">
+      <span>815 Nile Ct, Golden, CO</span>
+      <span>Session 03 — Sept 2026</span>
+      <span>Grounded in 1,237 Uokura reviews + 1,440 competitor reviews across 14 restaurants</span>
+    </div>
+  </header>
+
+  <section id="thesis">
+    <p class="section__label">Where this picks up</p>
+    <h2 class="section__head">The loyal-regulars belief is partly true</h2>
+    <div class="verdict">
+      <p class="verdict__label">Verdict, from Session 02's review analysis</p>
+      <p class="verdict__text">
+        The base is real and vocal — but the pipeline feeding it has <em>stalled</em>, and the
+        cheapest fix available (replying to reviews) has never been used.
+      </p>
+    </div>
+    <div class="stat-row">
+      <div class="stat"><span class="stat__num">4.48★</span><span class="stat__label">average rating across 1,237 reviews, 2011–2026</span></div>
+      <div class="stat"><span class="stat__num">3.45:1</span><span class="stat__label">regular-signal language outweighs newcomer-signal language</span></div>
+      <div class="stat"><span class="stat__num">−37%</span><span class="stat__label">review volume vs. the 2019 peak (159 → ~100/yr pace)</span></div>
+      <div class="stat"><span class="stat__num">0%</span><span class="stat__label">of reviews have ever received an owner reply</span></div>
+    </div>
+  </section>
+
+  <section id="benchmark">
+    <p class="section__label">Competitive benchmark</p>
+    <h2 class="section__head">Uokura already beats its AYCE field on quality</h2>
+    <p class="section__intro">
+      Across six direct AYCE rivals (mostly Lakewood) and six of Denver's top-rated non-AYCE sushi
+      destinations, Uokura's Food, Service, and Atmosphere scores lead the AYCE segment outright — the
+      gap isn't quality, it's infrastructure. Full table: <code>research/analysis/competitor-benchmark.md</code>.
+    </p>
+
+    <div class="table-scroll">
+      <table class="segment-table">
+        <thead>
+          <tr><th>Metric</th><th class="num">Uokura</th><th class="num">AYCE rivals (6)</th><th class="num">Popular tier (6)</th></tr>
+        </thead>
+        <tbody>
+          <tr class="hero-row"><td>Overall rating</td><td class="num">4.48★</td><td class="num">4.25★</td><td class="num">4.62★</td></tr>
+          <tr><td>Food (detailed)</td><td class="num">4.50</td><td class="num">4.41</td><td class="num">4.70</td></tr>
+          <tr><td>Service (detailed)</td><td class="num">4.44</td><td class="num">4.35</td><td class="num">4.64</td></tr>
+          <tr><td>Atmosphere (detailed)</td><td class="num">4.46</td><td class="num">4.29</td><td class="num">4.62</td></tr>
+          <tr><td>Parking mentioned in reviews</td><td class="num">4.4%</td><td class="num">1.5%</td><td class="num">2.4%</td></tr>
+          <tr><td>Owner reply rate</td><td class="num">0%</td><td class="num">34.0%</td><td class="num">13.6%</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="caption">
+      AYCE/popular figures from 1,440 recent competitor reviews (120 per restaurant, 2024–2026), tagged
+      by segment. Uokura figures from its full 1,237-review history, 2011–2026.
+    </p>
+
+    <div class="callout">
+      <strong>The gap the original competitor set missed:</strong> Session 01's search covered
+      Denver and Lakewood but turned up nothing in Golden itself. <strong>Okinawa sushi</strong> —
+      an AYCE sushi restaurant a few minutes from Uokura, 582 reviews, 4.5★ — already has DoorDash
+      ordering, its own working website, and Google Reserve. It's Uokura's only true local-AYCE peer,
+      and it's ahead on every piece of discovery infrastructure Uokura lacks.
+    </div>
+  </section>
+
+  <section id="swot">
+    <p class="section__label">SWOT</p>
+    <h2 class="section__head">Every item below traces to a review, a stat, or the benchmark table</h2>
+
+    <div class="swot-grid">
+      <div class="panel panel--positive">
+        <div class="panel__head">
+          <h3 class="panel__title">Strengths</h3>
+          <span class="panel__scope">Internal · build on</span>
+        </div>
+        <div class="item">
+          <p class="item__claim">Beats every AYCE rival on every rating dimension</p>
+          <p class="item__evidence">Food 4.50 vs. 4.41, Service 4.44 vs. 4.35, Atmosphere 4.46 vs. 4.29, overall 4.48★ vs. 4.25★. <cite>benchmark table</cite></p>
+        </div>
+        <div class="item">
+          <p class="item__claim">A loyal base that shows up and says so</p>
+          <p class="item__evidence">Regular-signal language outnumbers newcomer-signal 3.45:1; 72.7% five-star, only 7.4% one/two-star among reviewers. <cite>review-insights.md</cite></p>
+        </div>
+        <div class="item">
+          <p class="item__claim">AYCE value lands without the fee backlash rivals get</p>
+          <p class="item__evidence">No Uokura review echoes the hidden-charge complaints found at Mt Fuji ("$10 extra if kids share a plate," forced 18% gratuity). <cite>reviews_competitors.json</cite></p>
+        </div>
+        <div class="item">
+          <p class="item__claim">A genuine, story-rich signature dish no rival can claim</p>
+          <p class="item__evidence">The Uokura Roll ties directly to 魚蔵 ("fish storehouse") — a real brand asset, currently unused. <cite>00-context.md</cite></p>
+        </div>
+        <div class="item">
+          <p class="item__claim">Dormant SEO equity: a 20-year-old, fully-paid domain</p>
+          <p class="item__evidence">sushiuokura.com registered 2006, paid through 2027 — domain age is a ranking signal competitors can't buy. <cite>00-context.md</cite></p>
+        </div>
+      </div>
+
+      <div class="panel panel--negative">
+        <div class="panel__head">
+          <h3 class="panel__title">Weaknesses</h3>
+          <span class="panel__scope">Internal · fix</span>
+        </div>
+        <div class="item">
+          <p class="item__claim">Zero owner responsiveness</p>
+          <p class="item__evidence">0% of 1,237 reviews (incl. 156 rated ≤3★) vs. 34% average among AYCE rivals — Eeny Meeny replies to 99.2%, Kokoro 66.7%. <cite>review-insights.md</cite></p>
+        </div>
+        <div class="item">
+          <p class="item__claim">No online ordering, no reservation link — at all</p>
+          <p class="item__evidence">Every true AYCE rival, and now Okinawa sushi in Golden, has at least one ordering or reservation channel. Uokura has none. <cite>benchmark table</cite></p>
+        </div>
+        <div class="item">
+          <p class="item__claim">Parking friction is costing completed visits, not just stars</p>
+          <p class="item__evidence">Mentioned in 4.4% of reviews vs. 1.5–2.4% for competitors; two reviewers describe leaving without eating. <cite>review-insights.md</cite></p>
+        </div>
+        <div class="item">
+          <p class="item__claim">Website down, name listed four inconsistent ways</p>
+          <p class="item__evidence">sushiuokura.com redirects to a suspended cPanel page; indexed as "Sushi Uokura," "Uokura Restaurant," "Sushi Okura," "Sushi &amp; Uokura." <cite>00-context.md</cite></p>
+        </div>
+        <div class="item">
+          <p class="item__claim">AYCE menu-clarity and price-consistency gap</p>
+          <p class="item__evidence">AYCE is discussed in 31% of reviews; several cite a limited menu vs. expectation, and price is reported $23–32 depending on source. <cite>review-insights.md</cite></p>
+        </div>
+        <div class="item">
+          <p class="item__claim">New-visitor pipeline has stalled</p>
+          <p class="item__evidence">Review volume down 37% from its 2019 peak; −10.6% YoY in 2025, continuing into 2026. <cite>review-insights.md</cite></p>
+        </div>
+      </div>
+    </div>
+
+    <div class="swot-grid" style="margin-top:22px;">
+      <div class="panel panel--positive">
+        <div class="panel__head">
+          <h3 class="panel__title">Opportunities</h3>
+          <span class="panel__scope">External · pursue</span>
+        </div>
+        <div class="item">
+          <p class="item__claim">Start replying to reviews — a proven, free lever</p>
+          <p class="item__evidence">Direct comparables already run this playbook at scale (Eeny Meeny 99%, Kokoro 67%, Mt Fuji 62%); answers 156 unresolved ≤3★ reviews. <cite>reviews_competitors.json</cite></p>
+        </div>
+        <div class="item">
+          <p class="item__claim">Rebuild the site with GEO/AI-search + consistent name/address/phone</p>
+          <p class="item__evidence">Newcomer-signal language is only 2.8% of review text — the discovery gap is real, and the 20-year domain is ready to be pointed at it. <cite>review-insights.md</cite></p>
+        </div>
+        <div class="item">
+          <p class="item__claim">Ship the clear AYCE explainer (already in scope)</p>
+          <p class="item__evidence">Directly resolves the "limited menu" and price-inconsistency complaints found in the review data. <cite>00-context.md decisions</cite></p>
+        </div>
+        <div class="item">
+          <p class="item__claim">Put parking directions on the homepage</p>
+          <p class="item__evidence">Zero-cost fix for a friction point shown to cost completed visits. <cite>review-insights.md</cite></p>
+        </div>
+        <div class="item">
+          <p class="item__claim">Make the Uokura Roll — and the 魚蔵 story — the marketing centerpiece</p>
+          <p class="item__evidence">Currently mentioned in just 2 of 790 English reviews vs. 245 for "AYCE" — a distinctive story sitting unused. <cite>review-insights.md</cite></p>
+        </div>
+      </div>
+
+      <div class="panel panel--negative">
+        <div class="panel__head">
+          <h3 class="panel__title">Threats</h3>
+          <span class="panel__scope">External · watch</span>
+        </div>
+        <div class="item">
+          <p class="item__claim">Okinawa sushi — the sharpest gap in this research</p>
+          <p class="item__evidence">Uokura's only true in-Golden AYCE peer (582 reviews, 4.5★) already has DoorDash ordering, its own site, and Google Reserve — the exact tooling Uokura lacks. <cite>places.json</cite></p>
+        </div>
+        <div class="item">
+          <p class="item__claim">Unanswered reviews compound with no counter-narrative</p>
+          <p class="item__evidence">While several AYCE rivals actively manage their public reputation, Uokura's negative reviews (parking, AYCE confusion) sit unanswered indefinitely. <cite>review-insights.md</cite></p>
+        </div>
+        <div class="item">
+          <p class="item__claim">Rising fish costs squeeze AYCE margins hardest for independents</p>
+          <p class="item__evidence">A category-wide pressure that hits a single-location owner-run restaurant harder than chain-backed competitors visible in the same data set. <cite>context</cite></p>
+        </div>
+        <div class="item">
+          <p class="item__claim">Every day the site stays down is a day rivals win the search</p>
+          <p class="item__evidence">Actively-marketed competitors with ordering, reservations, and delivery-app presence keep capturing searches Uokura's 20-year domain should be winning. <cite>00-context.md</cite></p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="closing">
+    <p class="section__label">Handoff</p>
+    <h2 class="section__head">What carries into the next sessions</h2>
+    <div class="closing-grid">
+      <div class="close-card">
+        <p class="close-card__label">Sharpest competitive gap</p>
+        <p>Okinawa sushi, a few minutes away in Golden, already has the online ordering, working
+          website, and reservation link that Uokura doesn't.</p>
+        <p>Uokura wins on food/service/atmosphere quality against every AYCE rival — the fight to win
+          isn't quality, it's discoverability and booking friction.</p>
+      </div>
+      <div class="close-card">
+        <p class="close-card__label">Biggest opportunity for marketing (Session 06)</p>
+        <p>Owner review replies + a clear AYCE explainer + the Uokura Roll / 魚蔵 story, built on the
+          domain's 20 years of SEO equity.</p>
+        <p>All three are cheap, already evidenced by this data, and directly answer the complaints
+          reviewers are already leaving.</p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    Sources: <code>research/data/uokura_place.json</code>, <code>reviews_uokura.json</code> (1,237
+    reviews, 2011–2026), <code>research/analysis/review-insights.md</code> (Session 02),
+    <code>research/data/competitors.json</code> + <code>reviews_competitors.json</code> (1,440 reviews
+    across 12 curated rivals, 2024–2026), <code>research/data/places.json</code> (Golden-area detail,
+    used for the Okinawa sushi / Sushi Sora local comparison added in this session). Full benchmark:
+    <code>research/analysis/competitor-benchmark.md</code>. Menu/prices referenced are marked
+    "to confirm" per project guardrails.
+  </footer>
+</div>
+</body></html>
